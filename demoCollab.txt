@@ -5,4 +5,9 @@ Line 2: exit(0);
 Line 3: //Comment: Demo Collaboration.
 
 Line 4: printf("Hello, Owner, sent by Collaborator");
+<<<<<<< HEAD
 Line X: sd = 0;
+=======
+
+Line 5: printf("Hello kol");
+>>>>>>> f54e6689dc09cffad88805849b330de9da8cad89
