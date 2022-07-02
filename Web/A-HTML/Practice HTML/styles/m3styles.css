@@ -1,0 +1,28 @@
+h1,h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.header1 {
+    font-size: 60px;
+}
+
+.header2 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.deliver-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.deliver-link:hover {
+    color: gray;
+}
+
+.deliver-link:active {
+    opacity: 0.7;
+}

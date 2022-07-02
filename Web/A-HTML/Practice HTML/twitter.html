@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="7g.css" />
+    <style>
+      .tweet-box {
+        margin-top: 40px;
+        margin-left: 40px;
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        border-radius: 6px;
+        width: 450px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+      .profile-picture {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+
+      .text-box {
+        font-size: 18px;
+        border: none;
+        width: 300px;
+        text-indent: 4px;
+        vertical-align: middle;
+      }
+
+      .text-box:focus {
+        outline-width: 0;
+      }
+
+      .tweet-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+
+      .tweet-button:hover {
+        opacity: 0.9;
+      }
+
+      .tweet-button:active {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet-box">
+      <img class="profile-picture" src="thumbnails/yujin.jpg" />
+      <input type="text" class="text-box" placeholder="What's happening?" />
+      <button class="tweet-button">Tweet</button>
+    </div>
+  </body>
+</html>

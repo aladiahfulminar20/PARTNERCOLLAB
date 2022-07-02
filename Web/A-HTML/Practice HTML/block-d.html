@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Block Display Exercise 8D: Signup Form</title>
+    <style>
+      * {
+        font-family: Arial;
+      }
+
+      .firstname-box,
+      .lastname-box {
+        width: 140px;
+        height: 33px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: rgb(183, 183, 183);
+        text-indent: 10px;
+      }
+
+      .email-box {
+        margin-top: 10px;
+        display: block;
+        width: 290px;
+        height: 38px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: rgb(183, 183, 183);
+        text-indent: 10px;
+      }
+
+      .email-box:focus,
+      .firstname-box:focus,
+      .lastname-box:focus {
+        outline-width: 0;
+      }
+
+      .signup-button {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 296px;
+        background-color: rgb(57, 117, 227);
+        border-radius: 8px;
+        border-style: none;
+        color: white;
+        font-weight: bold;
+        font-size: 19px;
+        cursor: pointer;
+      }
+
+      .signup-button:hover {
+        opacity: 0.9;
+      }
+
+      .signup-button:active {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="firstname-box" type="text" placeholder="First name" />
+    <input class="lastname-box" type="text" placeholder="Last name" />
+    <input class="email-box" type="text" placeholder="Email" />
+    <button class="signup-button">Sign Up</button>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Block Exercise 8E: Uber Ride Form</title>
+    <style>
+      * {
+        font-family: Arial;
+        margin-left: 5px;
+      }
+
+      p {
+        margin-top: 2px;
+        margin-left: 5px;
+        font-size: 40px;
+      }
+
+      .pickup-loc,
+      .destination {
+        margin-top: 5px;
+        display: block;
+        width: 380px;
+        height: 40px;
+        text-indent: 15px;
+        border-style: none;
+        background-color: rgb(225, 225, 225);
+      }
+
+      .pickup-loc:focus,
+      .destination:focus {
+        outline-width: 0;
+      }
+
+      .request-button,
+      .schedule-button {
+        margin-top: 30px;
+        cursor: pointer;
+        height: 40px;
+        border-style: none;
+      }
+
+      .request-button {
+        width: 120px;
+        color: white;
+        background-color: black;
+      }
+
+      .schedule-button {
+        width: 150px;
+        color: black;
+        background-color: lightgray;
+      }
+
+      .request-button:hover,
+      .schedule-button:hover {
+        opacity: 0.8;
+      }
+
+      .request-button:active,
+      .schedule-button:active {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Request a ride now</p>
+    <input class="pickup-loc" type="text" placeholder="Enter pickup location" />
+    <input class="destination" type="text" placeholder="Enter destination" />
+    <button class="request-button">Request now</button>
+    <button class="schedule-button">Schedule for later</button>
+  </body>
+</html>
