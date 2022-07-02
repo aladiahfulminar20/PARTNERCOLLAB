@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif
+}
+
+.homeheader1,
+.hometab,
+.hometab-selection {
+    margin-left: 20px;
+}
+
+.homeheader1 {
+    display: inline-block;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: palevioletred;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: purple;
+}
+
+.hometab {
+    display: block;
+    background-color: aqua;
+}
+
+.hometab-selection-layout {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#s1, #s2 {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+#s1:hover, #s2:hover {
+    color: red;
+}
